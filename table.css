@@ -1,0 +1,25 @@
+@media screen and (max-width: 992px) {
+  .name {
+    display: none;
+  }
+  .kha_nang {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .imglon {
+    flex-direction: column;
+  }
+  .imglon1 {
+    flex-direction: column;
+  }
+  .img1 {
+    width: 100%;
+  }
+  .cc_gt {
+    margin: 30px 30px 30px 30px;
+  }
+  .duan {
+    margin: 30px 30px 30px 30px;
+  }
+}

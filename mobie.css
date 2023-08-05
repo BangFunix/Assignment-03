@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  .gioi_thieu {
+    flex-direction: column;
+  }
+  .kha_nang {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px;
+  }
+  .cc_gt {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px;
+  }
+  .duan {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px;
+  }
+}

@@ -1,0 +1,210 @@
+* {
+  font-size: 20px;
+}
+.phan_mo_dau {
+  height: 300px;
+  color: white;
+  font-family: monospace;
+}
+.anh_dau {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.trg_anh {
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  width: 100%;
+}
+.chu_thich {
+  font-size: 10px;
+}
+
+.name {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  gap: 50px;
+}
+nav > * {
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-self: center;
+}
+nav > *:hover {
+  background-color: blueviolet;
+  color: black;
+}
+.phanan {
+  display: none;
+}
+.gioi_thieu {
+  display: flex;
+}
+.muc_tieu {
+  width: 50%;
+  background-color: rgb(244, 244, 244);
+}
+.thong_tin {
+  width: 50%;
+  background-color: rgb(227, 227, 227);
+}
+.in_dam {
+  font-weight: bold;
+}
+.thong_tin_nho {
+  list-style: none;
+}
+.kha_nang {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin: 30px 100px 30px 100px;
+}
+#loi {
+  color: red;
+}
+.kinh_nghiem,
+.hoc_van,
+.hd,
+.so_thich,
+.ngon_ngu,
+.ky_nang {
+  display: grid;
+  /*grid-template-rows: auto 90%;*/
+  border: solid 2px rgba(35, 35, 35, 0.268);
+}
+.kinh_nghiem_nd,
+.hoc_van_nd,
+.hd_nd,
+.so_thich_nd,
+.ngon_ngu_nd,
+.ky_nang_nd {
+  display: none;
+}
+.view-more {
+  display: none;
+}
+.an {
+  display: none;
+}
+.tieudebe {
+  font-size: 30px;
+  font-weight: bold;
+}
+.tieudebedb {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+/*.icon1 {
+  background-color: aquamarine;
+  display: grid;
+  align-content: space-around;
+  justify-content: space-around;
+}*/
+.phaniconnho {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: auto auto;
+}
+.iconnho {
+  border-radius: 100%;
+  background-color: aqua;
+  display: grid;
+  align-content: space-around;
+  justify-items: center;
+}
+.chinhti {
+  display: grid;
+  justify-items: center;
+}
+.xanh {
+  background-color: rgba(0, 140, 255, 0.766);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.xam {
+  background-color: rgb(165, 165, 165);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.cc_gt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  margin: 30px 100px 30px 100px;
+  background-color: rgb(244, 244, 244);
+}
+.imglon {
+  display: flex;
+  margin-bottom: 30px;
+  border-bottom: solid 2px #d6c08d;
+}
+.imglon1 {
+  display: flex;
+  margin-bottom: 30px;
+}
+.img1 {
+  width: 45%;
+}
+.duan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px 100px 30px 100px;
+  gap: 20px;
+}
+.cv {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: solid rgba(0, 0, 0, 0.186);
+}
+.phannho {
+  display: flex;
+  gap: 50px;
+  border-top: solid rgba(0, 0, 0, 0.186);
+}
+.table {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.phantable {
+  border-top: solid rgba(0, 0, 0, 0.186);
+}
+.phanbe {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 100px 30px 100px;
+}
+.iconnho {
+  border-radius: 50%;
+}
+.footer {
+  display: flex;
+  background-color: rgba(204, 204, 204, 0.39);
+
+  justify-content: center;
+}
+.img {
+  width: 100%;
+}
+/*an errorEmail*/
+#errorEmail {
+  color: red;
+  font-weight: 700px;
+}
